@@ -8,7 +8,7 @@ module.exports = function(app) {
     .post(coches.create_car);
 
 
-  app.route('/car/:id')
+  app.route('/cars/:carId')
     .get(coches.get_car_by_id)
     .put(coches.update_car)
     .delete(coches.delete_car);

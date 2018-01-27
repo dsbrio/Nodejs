@@ -1,0 +1,32 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "api REST en nodejs y mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsbrio/Nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "example"
+  ],
+  "author": "Lucas Carlos David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsbrio/Nodejs/issues"
+  },
+  "homepage": "https://github.com/dsbrio/Nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.1"
+  }
+}
